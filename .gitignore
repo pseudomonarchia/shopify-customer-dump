@@ -1,0 +1,6 @@
+config.shopify.yaml
+logs.txt
+
+.cache/
+
+dist/
