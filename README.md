@@ -13,7 +13,7 @@ This is a tool written in Go for exporting customer data from multiple Shopify s
 2. Clone this repository:
 
 ```
-git clone https://github.com/yourusername/shopify-customer-dump.git
+git clone https://github.com/pseudomonarchia/shopify-customer-dump.git
 ```
 
 3. Navigate to the project directory:
