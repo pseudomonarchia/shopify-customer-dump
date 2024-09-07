@@ -13,6 +13,8 @@ permissions:
   contents: write
 
 jobs:
+  lint:
+    uses: ./.github/workflows/go-lint.yml
   releaser:
     needs: lint
     runs-on: ubuntu-latest
