@@ -96,7 +96,10 @@ func Dump(shop shopifyConfLi, wg *sync.WaitGroup) {
 		shop.Name,
 	)
 
-	write2File(nil, filepath)
+	err = write2File(nil, filepath)
+	if err != nil {
+		log.Fatalf("Error writing end: %v", err)
+	}
 }
 
 func write2File(data []byte, path string) error {
